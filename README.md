@@ -1,12 +1,6 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CREATING A SIMPLE RECIPE WEBSITE
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The website is a basic single web pag (juat the landing page), on the landing page, we have some particular dishes and there instructions.
+The main feature of the website, is the availability of the search button which allows a user to input/search for a particular dish of their choice, and it gives a result showing different dishes for the particular dish searched for , it also provide more details when a particular dish is been clicked on from the result, showing a more detailed instruction about the dish, the ingredient needed and a video tutorial link for thr dish.
+This was done by integrating a recipe API that helps in providing a feedback for whatever prompt is been inputed
