@@ -29,7 +29,7 @@ export default function App() {
     <>
     <div className="p-6 max-w-4xl mx-auto">
       <SearchBar query={query} setQuery={setQuery} />
-      <button className="mb-4 bg-blue-700 text-white-700 p-2 rounded" onClick={fetchRecipes}>
+      <button className="mb-4 bg-[#213547] text-white text-2xl font-bold p-2 rounded text-white" onClick={fetchRecipes}>
         Search
       </button>
       {error && <p className="text-red-500">{error}</p>}

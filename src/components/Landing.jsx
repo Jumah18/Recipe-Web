@@ -1,9 +1,11 @@
 import React from "react";
-import './index.css'
+import '../index.css'
 
 const Landing = () => {
   return (
     <div className="">
+
+      <h1 className="text-4xl font-bold text-black m-15 p-20 b-10 bg-[#213547] text-white">Meet MyRecipes: The Easiest Way to Keep Track of All Your Favorite Recipes (Including Ours!)</h1>
 
       {/* Garlic  div */}
       <div className=" p-10 m-0 w-full ">
