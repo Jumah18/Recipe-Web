@@ -1,5 +1,4 @@
 import { useState } from "react";
-import './App.css'
 import SearchBar from "./components/SearchBar";
 import RecipeCard from "./components/RecipeCard";
 import RecipeDetails from "./components/RecipeDetails";
@@ -27,6 +26,7 @@ export default function App() {
   };
 
   return (
+    <>
     <div className="p-6 max-w-4xl mx-auto">
       <SearchBar query={query} setQuery={setQuery} />
       <button className="mb-4 bg-blue-700 text-white-700 p-2 rounded" onClick={fetchRecipes}>
@@ -39,7 +39,7 @@ export default function App() {
         ))}
       </div>
       {selectedRecipe && <RecipeDetails recipe={selectedRecipe} onClose={() => setSelectedRecipe(null)} />}
-    </div>
+    </div></>
 
   );
 }

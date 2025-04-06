@@ -1,7 +1,7 @@
 export default function RecipeCard({ recipe, onSelect }) {
     return (
       <div
-        className="border rounded p-4 cursor-pointer hover:shadow-lg bg-black"
+        className="border rounded p-4 cursor-pointer hover:shadow-lg"
         onClick={() => onSelect(recipe)}
       >
         <img

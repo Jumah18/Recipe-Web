@@ -2,7 +2,7 @@ export default function RecipeDetails({ recipe, onClose }) {
     if (!recipe) return null;
   
     return (
-      <div className="mt-6 p-4 border rounded">
+      <div className="mt-6 p-4 border rounded ">
         <button onClick={onClose} className="mb-2 text-red-500">Close</button>
         <h2 className="text-2xl font-bold">{recipe.strMeal}</h2>
         <p className="text-sm text-gray-600">{recipe.strCategory} - {recipe.strArea}</p>

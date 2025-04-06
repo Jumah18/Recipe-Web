@@ -1,5 +1,10 @@
+import '../index.css'
+
 export default function SearchBar({ query, setQuery }) {
     return (
+
+      <>
+      <p>Need a particular Recipe, Use the search option below</p>
       <input
         type="text"
         placeholder="Search for a recipe..."
@@ -7,6 +12,7 @@ export default function SearchBar({ query, setQuery }) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
+      </>
     );
   }
   
